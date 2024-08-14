@@ -1,0 +1,101 @@
+/* adjusting the view port and body */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec1,.sec2,.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+    height: 98vh;
+    width: 99.5vw;
+    /* border: 2px solid red; */
+}
+
+.sec1{
+    position: fixed;
+}
+
+.header1{
+    display: flex;
+    padding: 16px;
+    height: 68px;
+    width: 100%;
+}
+
+.navbar1{
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    width: 33%;
+    
+}
+
+.navbar1 button,.navbar3 button{
+    background-color: white;
+    border: none;
+    margin-right: 2%;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.navbar3{
+    display:flex;
+    justify-content: flex-end;
+    width: 33%;
+    height: 100%;
+    padding: 3px 0px;
+}
+
+.navbar3 .register,.navbar3 .sign{
+    font-size: medium;
+    height: 100%;
+    width: 18%;
+}
+
+.navbar3 .register{
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar3 .sign:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.763);
+}
+
+.header2{
+    height: 5.7%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.header2 .navbar4{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header2 .navbar4 .list_h2{
+    list-style-type: none;
+    padding: 11px 9px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar4 .list_h2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.838);
+}
+
+.navbar4 .leftm{
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.navbar4 .list_h2:hover{
+    background-color: rgba(236, 231, 231, 0.884);
+}
