@@ -142,6 +142,7 @@
     margin-top: 1.2%;
 }
 
+/*  used grid for getting layout */
 .container1{
     width: 84%;
     margin-left: auto;
@@ -167,6 +168,14 @@
     padding-top: 25px;
     /* padding-bottom: 10%; */
 
+}
+
+.bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount:hover div h3,.content_l5 .l5_new1:hover div h3{
+    text-decoration: underline;
+}
+
+.bang:hover .bangpic img,.northkorea:hover img,.content_4 .news_1:hover .cone_1{
+    opacity: 0.7;
 }
 
 .northkorea{
@@ -219,15 +228,35 @@
     margin-bottom: 5px;
 }
 
-.news_1 .cone_2 .live{
-    height: 25px;
-    width: 30px;
+/*  style for getting live symbole */
+.news_1 .cone_2 .live,.content_l5 .l5_new1 .live{
+    height: 20px;
+    width: 20px;
     border: 5px solid rgb(208, 3, 3);
     border-radius: 50%;
     padding: 5px;
 }
-
+/* adjusting color and sije for "time | country" */
 .cone_4{
     color: rgba(0, 0, 0, 0.711);
     font-size: small;
 }
+
+/* applying flex for content_l5 inorder to get its childs side by side */
+.content_l5{
+    height: 30vh;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contant_l5 content divided into 5 parts giving height and width to those part */
+.l5_new1{
+    /* border: 2px solid violet; */
+    width: 20%;
+    padding: 5% 1%;
+}
+
