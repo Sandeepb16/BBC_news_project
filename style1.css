@@ -5,7 +5,7 @@
     padding: 0px;
 }
 
-.sec4,.sec5,.sec6,.sec7,.sec8{
+.sec5,.sec6,.sec7,.sec8{
     height: 110vh;
     width: 99vw;
     border: 2px solid red;
@@ -13,7 +13,7 @@
 
 /* .sec1{
     position: fixed;
-    bottom: 0%;
+    top: 0%;
 } */
 
 .header1{
@@ -305,3 +305,33 @@
     padding: 5% 1%;
 }
 
+
+.sec4 .content_p1{
+    width: 84%;
+    height: 52vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+}
+.sec4 .head112{
+    height:7%;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 0%;
+    border-top: 2px solid;
+}
+.sec4 .head112 h3{
+    width: 100%;
+
+}
+.sec4 .content_p1 .news_1{
+    width: 18.5%;
+}
+
+.sec5 .container1 .content_4 .news_1{
+    width: 32%;
+    height: 120%;
+}
