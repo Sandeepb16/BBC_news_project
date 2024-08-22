@@ -6,7 +6,7 @@
     font-family: "Lora", serif;
 }
 
-.sec7,.sec8 {
+.sec8 {
     height: 110vh;
     width: 99vw;
     border: 2px solid red;
@@ -353,6 +353,16 @@
 .sec5{
     margin-bottom: 25px;
 }
+.sec7{
+    width: 84%;
+    margin: 0px auto;
+}
+.sec7 .most11{
+    width: 100%;
+    padding: 5px;
+    border-top: 2.5px solid;
+}
+
 .sec5 .para22{
     width: 84%;
     margin: 0px auto;
@@ -383,6 +393,14 @@
     padding: 6% 7%;
     
 }
+.most_watch1 .subhead1 .number1{
+    height: 100%;
+    width: 20%;
+    /* border: 2px blue; */
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.507);
+    padding: 0% 4% ;
+}
 
 .most_watch .subhead .subcont{
     height: 100%;
@@ -396,15 +414,45 @@
 .sec6 .most11{
     width: 84%;
     margin: 0px auto;
-    padding: 5px;
+    /* padding: 10px 0px 0px 30px; */
     border-top: 2.5px solid;
 
 }
+.sec7 .most_watch1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-bottom: 2.5px solid;
+    gap: 0% 1%;
+    height: 26%;
+    margin-top: 10px;
+    padding-bottom: 5%;
+}
+.sec7 .most_watch1 .subhead1{
+    display: flex;
+}
+.sec7 .most_watch1 .subhead1 .subcont1{
+    font-size: 0.96rem;
+    font-weight: 600;
+    padding:2px 3px  ;
+}
+.sec5 .container1 .banddata .hh1 .liveboll{
+  color: red;
+  font-weight: bold;
+}
 
-
-
-
-
+.sec5 .container1 .banddata .livve{
+    height: 15px;
+    width: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: inline-block;
+}
 .para11{
     font-size: 0.9rem;
+}
+.sec5 .bang .banddata1{
+    width: 34%;
+    padding: 5% 1% 8% 1.5%;
+    height: 100%;
 }
