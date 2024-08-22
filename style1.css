@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Lora", serif;
 }
 
 .sec5,.sec6,.sec7,.sec8{
@@ -11,10 +12,11 @@
     border: 2px solid red;
 }
 
-/* .sec1{
-    position: fixed;
+.sec1{
+    position: sticky;
     top: 0%;
-} */
+    background-color: rgb(255, 255, 255);
+}
 
 .header1{
     display: flex;
@@ -192,14 +194,16 @@
     width: 100%;
 }
 
-.bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount:hover div h3,.content_l5 .l5_new1:hover div h3{
+.bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount:hover div h3,.content_l5 .l5_new1:hover div h3,.sec4 .content_p1 .news_1:hover h3{
     text-decoration: underline;
     cursor: pointer;
 }
 
-.bang:hover .bangpic img,.northkorea:hover img,.content_4 .news_1:hover .cone_1{
+.bang:hover .bangpic img,.northkorea:hover img,.content_4 .news_1:hover .cone_1,.sec4 .content_p1 .news_1:hover img{
     opacity: 0.7;
     cursor: pointer;
+    /* filter: brightness(70%); */
+    
 
 
 }
@@ -226,9 +230,11 @@
 
 .mount{
     grid-area: cell4;
-
 }
 
+.mount div h3{
+    margin-bottom: 0px;
+}
 .banddata{
     width: 34%;
     padding: 8% 1% 10% 1.5%;
@@ -240,6 +246,7 @@
     /* height: 100%; */
     /* padding: 7px 2px; */
 }
+/* .banddata .para */
 .banddata .hh1{
     font-size: 1.7em;
     font-weight: 600;
@@ -334,4 +341,38 @@
 .sec5 .container1 .content_4 .news_1{
     width: 32%;
     height: 120%;
+}
+
+.sec6 .most_watch{
+    width: 84%;
+    height: 26%;
+    border: 2px solid;
+    margin: 0px auto;
+    display: flex;
+
+}
+.subhead{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+.most_watch .subhead .number{
+    height: 100%;
+    width: 20%;
+    /* border: 2px blue; */
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.507);
+    padding: 20% 7%;
+    
+}
+
+.most_watch .subhead .subcont{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid violet; */
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 20% 3% 25% 3%;
 }
