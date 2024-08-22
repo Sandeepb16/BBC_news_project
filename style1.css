@@ -132,6 +132,44 @@
      padding-top: 7.2%;
 } */
 
+
+
+/* Navbar should always be on top */
+.sec1 {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000; /* High z-index to stay on top */
+}
+
+/* Other elements should have a lower z-index */
+.bang, .northkorea, .content_4, .mount, .content_l5 {
+    position: relative; /* Position relative or static */
+    z-index: 1; /* Lower z-index or none */
+}
+
+.bangpic img, .northkorea img, .content_4 .news_1 img {
+    z-index: 0; /* Ensure images do not overlap navbar */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header3{
     height: 5.5%;
     width: 100%;
