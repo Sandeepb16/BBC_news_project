@@ -589,15 +589,24 @@
     margin-right: 22px;
 }
 .footer .imgee .icon svg, .icon img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     margin-left: 15px;
+    padding: 3px;
+    
+}
+.footer .imgee .icon svg:hover, .icon img:hover{
+    border: 1px solid;
 }
 .navbar9 .list_h8,.pp{
     list-style-type: none;
     padding: 0px 11px 0px 0px;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
+}
+.navbar9 .list_h8:hover,.navbar8 .list_h8:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .list_h8 a{
     text-decoration: none;
