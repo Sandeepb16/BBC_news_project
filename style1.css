@@ -467,6 +467,7 @@
 .sec7 .most_watch1 .subhead1 .subcont1:hover,.sec6 .most_watch .subhead .subcont:hover{
     text-decoration: underline;
     cursor: pointer;
+    text-decoration-thickness: 1.7px; ;
 }
 .sec5 .container1 .banddata .hh1 .liveboll{
   color: red;
