@@ -224,8 +224,11 @@
     width: 100%;
 }
 
-.bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount:hover div h3,.content_l5 .l5_new1:hover div h3,.sec4 .content_p1 .news_1:hover h3{
+.bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount .div31:hover .hh31,.mount .div32:hover .hh32,.content_l5 .l5_new1:hover div h3,.sec4 .content_p1 .news_1:hover h3{
     text-decoration: underline;
+    cursor: pointer;
+}
+.mount .div31:hover,.mount .div32:hover{
     cursor: pointer;
 }
 
@@ -233,8 +236,6 @@
     opacity: 0.7;
     cursor: pointer;
     /* filter: brightness(70%); */
-    
-
 
 }
 
@@ -462,6 +463,11 @@
     font-weight: 600;
     padding:2px 3px  ;
 }
+
+.sec7 .most_watch1 .subhead1 .subcont1:hover,.sec6 .most_watch .subhead .subcont:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .sec5 .container1 .banddata .hh1 .liveboll{
   color: red;
   font-weight: bold;
@@ -564,7 +570,7 @@
    
 }
 
-.footer .container3 form select{
+.footer .container3 select{
     padding: 12px 10px;
     margin-top: 24px;
     font-weight: 700;
