@@ -11,19 +11,21 @@
     width: 99vw;
     border: 2px solid red;
 }
-
+/* giving skicky for the nav bar so it will be fixed in that position */
 .sec1{
     position: sticky;
     top: 0%;
     background-color: rgb(255, 255, 255);
 }
 
+/* applying flex in order to get content side by side */
 .header1{
     display: flex;
     padding: 16px;
     height: 68px;
     width: 100%;
 }
+/*same applying flex for different navebar in order to get content side by side */
 
 .navbar1{
     height: 100%;
@@ -32,23 +34,25 @@
     width: 33%;
     
 }
-
+/* styling for the button */
 .navbar1 button,.navbar3 button{
     background-color: white;
     border: none;
     margin-right: 2%;
 }
 
+/* bcc logo adjusting height and width */
 .navbar1 button img{
     height: 32px;
     width: 36px;
 }
-
+/* styling for search icon to adjusting height and width */
 .navbar1 .search img{
     height: 25px;
     width: 25px;
 }
 
+/*same applying flex for different navebar in order to get content side by side */
 .navbar2{
     display: flex;
     justify-content: center;
@@ -59,6 +63,8 @@
     height: 29px;
     width: 94px;
 }
+
+/*same applying flex for different navebar in order to get content side by side */
 .navbar3{
     display:flex;
     justify-content: flex-end;
@@ -66,7 +72,7 @@
     height: 100%;
     padding: 3px 0px;
 }
-
+/* styling for the button */
 .navbar3 .register,.navbar3 .sign{
     font-size: medium;
     height: 100%;
@@ -78,13 +84,13 @@
     color: white;
     font-family: "Roboto", sans-serif;
 }
-
+/* on hovering sign up button it font color changes to white and  bg color changes to black  */
 .navbar3 .sign:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.763);
     cursor: pointer;
 }
-
+/* no hovering the  */
 .navbar3 .register:hover{
     background-color: rgb(49, 46, 46);
     cursor: pointer;
@@ -101,7 +107,7 @@
     justify-content: center;
     
 }
-
+/* styling for the list removing bullet points */
 .header2 .navbar4 .list_h2{
     list-style-type: none;
     padding: 11px 9px;
@@ -109,7 +115,7 @@
     font-size: 14px;
     font-weight: 500;
 }
-
+/* for anchor tag removing the underline */
 .navbar4 .list_h2 a,.footer .container3 .navbar8 .list_h8 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.838);
@@ -128,10 +134,7 @@
     background-color: rgba(236, 231, 231, 0.884);
 }
 
-/* .sec2{
-    background-color: bisque; 
-     padding-top: 7.2%;
-} */
+
 
 
 
@@ -168,6 +171,7 @@
     padding: 10px;
     /* border: 1px solid; */
 }
+/* for anchor tag removing the underline */
 
 .navbar5 .list_h3 a{
     text-decoration: none;
@@ -209,7 +213,7 @@
                          'cell3 cell4';
     gap: 0% 2%;
 }
-
+/* define grid area name  */
 .bang{
     grid-area: cell1;
     width: 100%;
@@ -223,7 +227,7 @@
     height: 100%;
     width: 100%;
 }
-
+/* on hovering the div the h3 will hover */
 .bang:hover .banddata .hh1,.northkorea:hover h3,.content_4 .news_1:hover .cone_2 h3,.mount .div31:hover .hh31,.mount .div32:hover .hh32,.content_l5 .l5_new1:hover div h3,.sec4 .content_p1 .news_1:hover h3{
     text-decoration: underline;
     cursor: pointer;
@@ -239,6 +243,7 @@
 
 }
 
+/* define grid area name  */
 .northkorea{
     grid-area: cell2;
     height: 92%;
@@ -250,7 +255,7 @@
     width: 100%;
 }
 
-
+/* define grid area name  */
 .content_4{
     grid-area: cell3;
     /* height: 10%; */
@@ -258,7 +263,7 @@
     justify-content: space-between;
     
 }
-
+/* define grid area name  */
 .mount{
     grid-area: cell4;
 }
@@ -274,8 +279,6 @@
 
 .bangpic{
     width: 66%;
-    /* height: 100%; */
-    /* padding: 7px 2px; */
 }
 .para11{
     font-size: 0.9rem;
@@ -283,7 +286,6 @@
 .banddata .hh1{
     font-size: 1.7em;
     font-weight: 600;
-    /* letter-spacing: 1.5px; */
     color: rgb(0, 0, 0);
 }
 
@@ -334,9 +336,7 @@
     margin-right: auto;
 }
 
-/* .l5_new1 .cone_2,.news_1 .cone_2{
-    display: flex;
-} */
+
 
 /* contant_l5 content divided into 5 parts giving height and width to those part */
 .l5_new1{
@@ -347,7 +347,7 @@
 .content_l5 .livm{
     display: flex;
 }
-
+/* applying the flex in order to get one content in left-end and another at right-end */
 .sec4 .content_p1{
     width: 84%;
     height: 52vh;
@@ -357,6 +357,8 @@
     justify-content: space-between;
     border-bottom: 2px solid;
 }
+
+/* used the margin inorder to place the div in center */
 .sec4 .head112{
     height:7%;
     width: 84%;
